@@ -4,7 +4,7 @@
 Browser plugin for adding quick views to a roster management website
 
 ### mssql-docker
-Set up an MSSQL Docker image running on Ubuntu
+MSSQL Docker image running on Ubuntu
 
-### x11-firefox-focker
-Set up a Docker image with x11 forwarding, able to run GUI-Firefox with ssh + x11 forwarding
+### x11-firefox-docker
+Docker image with x11 forwarding. Run Firefox GUI browser using ssh x11 forwarding.
