@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "K Quick Viewer",
+  "version": "1.0",
+  "description": "Adds a button to quickly check a value from a details page without leaving the list.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*.<host.site.com>/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.<host.site.com>/<subpath>/<subpath>/<subpath>/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
